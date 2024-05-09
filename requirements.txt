@@ -1,0 +1,19 @@
+# Do not include azure-functions-worker in this file
+# The Python Worker is managed by the Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-functions
+azure-functions-durable==1.2.8
+azure-storage-blob==12.19.0
+azure.search.documents
+pytest==8.0.0
+azure-identity==1.15.0
+openai==1.13.3
+debugpy==1.8.1
+azure.cognitiveservices.vision.computervision
+msrest
+opencv-python
+moviepy
+Pillow
+
